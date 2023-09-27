@@ -42,12 +42,12 @@ header nav {
   justify-content: flex-end;
 }
 
-header nav ul {
+nav ul {
  
   list-style-type: none;
 }
 
-header nav ul li {
+nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
@@ -55,14 +55,43 @@ header nav ul li {
 body {
   background-color: var(--basecol);
   color: var(--dkcol2);
+  font-size: 1.5rem;
+
 }
 
 .bio {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  justify-content: space-around;
   padding: 10px;
-  font-size: 1.5rem;
+  margin-left: 20%;
+  margin-right: 20%;
+}
 
-  
+.bio h2 {
+  padding: 20px;
+}
+
+.abouttxt {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.bio p {
+  border-left: solid 5px var(--dkcol1);
+
+  padding: 20px;
+}
+
+footer {
+  display: flex;
+  background-color: var(--ltcol2);
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+
+}
+
+footer nav {
+  display: flex;
+
 }
