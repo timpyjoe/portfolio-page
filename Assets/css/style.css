@@ -1,6 +1,4 @@
-/* Color palette: #001524 #15616D #FFECD1 #FF7D00 #78290F */
-
-/* font family: like Times New Roman, but not TNR. Merryweather, Georgia, and Book Antiqua. */
+/* font family: like Times New Roman, but not TNR. Merriweather, Georgia, and Book Antiqua. */
 :root {
   --dkcol1: #001524;
   --ltcol1: #15616D;
@@ -15,21 +13,26 @@
   margin: 0px;
 }
 
+/* Styles the entire header section  */
 header {
   font-size: 1.5rem;
   font-family: 'Merriweather', Georgia, 'Book Antiqua', 'Times New Roman', Times, serif;
   padding: 25px;
+  padding-left: 0px;
   display: flex;
   background-color: var(--ltcol1);
   color: var(--basecol);
   align-items: center;
   justify-content: space-between;
+  flex: 1 1 100%;
 
 }
 
+/* Styling only the header portion that contains "timpyjoe" */
 .header-name {
   margin-left: 0px;
   padding: 20px;
+  padding-left: 50px;
   background-color: #001524;
 }
 
@@ -51,4 +54,15 @@ header nav ul li {
 
 body {
   background-color: var(--basecol);
+  color: var(--dkcol2);
+}
+
+.bio {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  font-size: 1.5rem;
+
+  
 }
