@@ -13,6 +13,14 @@
   margin: 0px;
 }
 
+a {
+  text-decoration: none;
+}
+
+h6 {
+  font-style: italic;
+}
+
 /* Styles the entire header section  */
 header {
   font-size: 1.5rem;
@@ -56,21 +64,23 @@ body {
   background-color: var(--basecol);
   color: var(--dkcol2);
   font-size: 1.5rem;
+  font-family: 'Merriweather Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 
 }
 
+/* the 'bio' class is used to help separate the 'About Me' section from other sections within the body */
 .bio {
   display: flex;
   justify-content: space-around;
   padding: 10px;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin: 30px 20% 25px;
 }
 
 .bio h2 {
   padding: 20px;
 }
 
+/* This is a div to help flex the text within the "About me" section */
 .abouttxt {
   display:flex;
   flex-wrap: wrap;
@@ -78,20 +88,134 @@ body {
 
 .bio p {
   border-left: solid 5px var(--dkcol1);
-
+  width: 100%;
   padding: 20px;
 }
+
+.portfolio {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 30px 15% 25px 20%;
+}
+
+.portfolio h2 {
+  padding: 20px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: 100%;
+  border-left: solid 5px var(--dkcol1);
+
+}
+
+.projectlabel {
+  display: flex;
+  flex-direction: column;
+  max-width: 25%;
+  flex: 1 1 20%;
+  color: var(--ltcol2);
+  background-color: var(--ltcol1);
+  padding: 10px;
+  padding-left: 20px;
+  border: 5px solid var(--ltcol2);
+  margin-bottom: 10px;
+  z-index: 10;
+
+
+}
+
+.project1 {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 350px;
+  border: 1px solid black;
+  background-image: url(../images/webpage-screenshot.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+  /* opacity: 0.5; */
+  
+}
+
+.project2 {
+  display: flex;
+  align-items: flex-end;
+  width: 50%;
+  height: 350px;
+  border: 1px solid black;
+  background-image: url(../images/webpage-screenshot.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+  /* opacity: 0.5; */
+  
+}
+
+.project3 {
+  display: flex;
+  align-items: flex-end;
+  width: 50%;
+  height: 350px;
+  border: 1px solid black;
+  background-image: url(../images/webpage-screenshot.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+  /* opacity: 0.5; */
+  
+}
+
+.project4 {
+  display: flex;
+  align-items: flex-end;
+  width: 50%;
+  height: 350px;
+  border: 1px solid black;
+  background-image: url(../images/webpage-screenshot.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+  /* opacity: 0.5; */
+  
+}
+
+.project5 {
+  display: flex;
+  align-items: flex-end;
+  width: 50%;
+  height: 350px;
+  border: 1px solid black;
+  background-image: url(../images/webpage-screenshot.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+  /* opacity: 0.5; */
+  
+}
+
 
 footer {
   display: flex;
   background-color: var(--ltcol2);
   padding: 2rem;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+
 
 }
 
 footer nav {
   display: flex;
 
+}
+
+
+@media screen and (max-width < 1200px) {
+  * {
+    font-size: 1rem;
+  }
+  body {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
