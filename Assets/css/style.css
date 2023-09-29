@@ -131,6 +131,7 @@ body {
 .project1 {
   display: flex;
   align-items: flex-end;
+
   width: 100%;
   height: 350px;
   border: 1px solid black;
@@ -142,12 +143,13 @@ body {
 }
 
 .project2 {
+  margin: auto;
+  margin-top: 20px;
   display: flex;
-  align-items: flex-end;
-  width: 50%;
+  width:45%;
   height: 350px;
   border: 1px solid black;
-  background-image: url(../images/webpage-screenshot.jpg);
+  background-image: url(../images/code-sample.jpg);
   background-size: cover;
   background-repeat: no-repeat; 
   /* opacity: 0.5; */
@@ -155,12 +157,13 @@ body {
 }
 
 .project3 {
+  margin: auto;
+  margin-top: 20px;
   display: flex;
-  align-items: flex-end;
-  width: 50%;
+  width: 45%;
   height: 350px;
   border: 1px solid black;
-  background-image: url(../images/webpage-screenshot.jpg);
+  background-image: url(../images/tech-group.jpg);
   background-size: cover;
   background-repeat: no-repeat; 
   /* opacity: 0.5; */
@@ -168,12 +171,14 @@ body {
 }
 
 .project4 {
+  margin: auto;
+  margin-top: 20px;
   display: flex;
   align-items: flex-end;
-  width: 50%;
+  width: 45%;
   height: 350px;
   border: 1px solid black;
-  background-image: url(../images/webpage-screenshot.jpg);
+  background-image: url(../images/social-media.jpg);
   background-size: cover;
   background-repeat: no-repeat; 
   /* opacity: 0.5; */
@@ -181,12 +186,14 @@ body {
 }
 
 .project5 {
+  margin: auto;
+  margin-top: 20px;
   display: flex;
   align-items: flex-end;
-  width: 50%;
+  width: 45%;
   height: 350px;
   border: 1px solid black;
-  background-image: url(../images/webpage-screenshot.jpg);
+  background-image: url(../images/cityscape.jpg);
   background-size: cover;
   background-repeat: no-repeat; 
   /* opacity: 0.5; */
