@@ -108,7 +108,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
-  width: 100%;
+  /* width: 100%; */
   border-left: solid 5px var(--dkcol1);
 
 }
@@ -218,13 +218,17 @@ footer nav {
 }
 
 
-@media screen and (max-width < 1200px) {
+@media screen and (max-width: 1200px) {
   * {
     font-size: 1rem;
   }
-  body {
-    margin-left: 10%;
-    margin-right: 10%;
+  .bio {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .portfolio {
+    margin-left: 5%;
+    margin-right: 5%;
   }
   .project2 {
     width: 100%;
