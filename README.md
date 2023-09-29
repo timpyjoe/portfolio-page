@@ -6,7 +6,7 @@ This project was created as a way to build a portfolio page that can be shown to
 
 ## Usage
 
-This project can be accessed by going to [this page.](https://timpyjoe.github.io/portfolio-)
+This project can be accessed by going to [this page.](https://timpyjoe.github.io/portfolio-page)
 
 Below is a screenshot of what the page should look like.
 ![Screenshot of the portfolio webpage](./Assets/images/screencap.png)
