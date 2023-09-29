@@ -17,16 +17,22 @@
     <!-- List of on-page links -->
     <nav>
       <ul>
-        <li>About Me</li>
-        <li>Work</li>
-        <li>Contact Me</li>
+        <a href="#bio">
+          <li>About Me</li>
+        </a>
+        <a href="#portfolio">
+          <li>Work</li>
+        </a>
+        <a href="#contact">
+          <li>Contact Me</li>
+        </a>
         <li>Resume</li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section class="bio">
+    <section class="bio" id="bio">
       <h2>About Me</h2>
       <div class="Abouttxt">
         <p>Hello, my name is Tim and I design webpages. More than that I am also big into cooking and make my own bread. In my free time I'm a huge gamer with League of Legends being my favorite. I am a very proud cat dad as well. My partner and I travel a lot and enjoy seeing concerts together. I'd say Im well rounded in my skills and I enjoy learning new things. I bring what I've learned to my craft to give it my own personal style. 
@@ -35,16 +41,17 @@
       </div>
     </section>
 
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
       <h2>My Work</h2>
       <div class="projects">
-        <div class="project1">
-          <div class="projectlabel">
-            <h4>Webpage Refactor</h4>
-            <h6>HTML/CSS</h6>
+        <!-- <a target="_blank" href="https://timpyjoe.github.io/semantic-html"> -->
+          <div class="project1">
+            <div class="projectlabel">
+              <h4>Webpage Refactor</h4>
+              <h6>HTML/CSS</h6>
+            </div>
           </div>
-        </div>
-
+        <!-- </a> -->
         <div class="project2">
           <!-- Photo by <a href="https://unsplash.com/@lucabravo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Luca Bravo</a> on <a href="https://unsplash.com/photos/XJXWbfSo2f0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
 
@@ -94,22 +101,20 @@
 
   </main>
 
-  <footer class="Contact">
+  <footer class="contact" id="contact">
     <h2>Contact Me</h2>
     <nav>
       <ul>
-        <li>
-          Email
-        </li>
-        <li>
-          Github
-        </li>
-        <li>
-          Twitter
-        </li>
-        <li>
-
-        </li>
+        <a href="mailto:google@gmail.com" >
+          <li>Email</li>
+        </a>
+        <a target="_blank" href="https://github.com/timpyjoe">
+          <li>Github</li>
+        </a>
+        <a target="_blank" href="https://twitter.com/Linus__Torvalds">
+         <li>Twitter</li>
+        </a>
+        
       </ul>
     </nav>
 
